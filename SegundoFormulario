@@ -5,17 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Retos de Clase</title>
-    
-    <ul>
-    <li><a href="Index.html"><h4>Página 1</a><br></h4></li>
-    <li><a href="Pagina2.html"><h4>Página 2</a><br></h4></li>
-    <li><a href="Pagina3.html"><h4>Página 3</a><br></h4></li>
-    <li><a href="Pagina4.html"><h4>Página 4</a><br></h4></li>
-    <li><a href=".html"><h4>Página 4</a><br></h4></li>
-    <li><a href="SegundoFormulario.html"><h4>Página 4</a><br></h4></li>
-    </ul>
+
 </head>
 <body>
+
+<header>
+        <hgroup>
+            <h1>Página Segundo Formulario.</h1>
+            <h2>MENÚ:</h2>
+        </hgroup>            
+    </header>
+    <nav>
+    <ul>
+        
+        <li><a href="Index.html"><h4>Página 1</a><br></h4></li>
+        <li><a href="Pagina2.html"><h4>Página 2</a><br></h4></li>
+        <li><a href="Pagina3.html"><h4>Página 3</a><br></h4></li>
+        <li><a href="Pagina4.html"><h4>Página 4</a><br></h4></li>
+        <li><a href=".html"><h4>Página 4</a><br></h4></li>
+        <li><a href="SegundoFormulario.html"><h4>Segundo Formulario.</a><br></h4></li>
+    </ul>
+    </nav>
 
 <hr>
 <p>¿TIENES ALGO PARA DECIR?</p>
