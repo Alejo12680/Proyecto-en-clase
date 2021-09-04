@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retos de Clase</title>
+
+</head>
+<body>
+
+    <header>
+        <hgroup>
+            <h1>Página Segundo Formulario.</h1>
+            <h2>MENÚ:</h2>
+        </hgroup>            
+    </header>
+    <nav>
+    <ul>
+        
+        <li><a href="Index.html"><h4>Página 1</a><br></h4></li>
+        <li><a href="Pagina2.html"><h4>Página 2</a><br></h4></li>
+        <li><a href="Pagina3.html"><h4>Página 3</a><br></h4></li>
+        <li><a href="Pagina4.html"><h4>Página 4</a><br></h4></li>
+        <li><a href=".html"><h4>Primer Formulario</a><br></h4></li>
+        <li><a href="SegundoFormulario.html"><h4>Segundo Formulario.</a><br></h4></li>
+    </ul>
+    </nav>
+
+<hr>
+<p>¿TIENES ALGO PARA DECIR?</p>
+<p>
+    A través de este formulario puedes enviarme un mensaje para ayudarme a corregir errores a mejorar mi blog o simplemente para decir hola.
+    Cualquiercosa que tengas para decir es bienvenida, así que no lo dudes y déjame un mensaje. Estaré feliz de contestarlo.
+</p>
+<form action="../form-result.php" target="_blank">
+    <fieldset>
+        <legend>Información Personal</legend> 
+        <p><label>Tu Nombre: <input type="text" name="nombre"></label></p>
+        <p><label>Tu dirección de correo: <input type="text" name="direccion"></label></p>
+        <p><label>
+            Enviar Mensaje: <input type="text" name="mensaje" value=""></p>
+        </label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Preferencias</legend> 
+        <p>Selecciona tus hobbies: <br/>
+            <label><input type="checkbox" name="htmk"> HTML </label>
+            <label><input type="checkbox" name="graficos"> Gráficos </label>
+            <label><input type="checkbox" name="videojuegos"> VideoJuegos </label>
+            <label><input type="checkbox" name="arte"> Arte </label>
+            <label><input type="checkbox" name="musica"> Música </label>
+
+        </p>
+    </fieldset>
+    
+    <p>
+        <input type="reset" value="Reiniciar Formulario">
+        <input type="reset" value="Enviar Mensaje">
+    </p>
+
+</form>
+
+</body>
+</html>
