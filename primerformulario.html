@@ -7,6 +7,35 @@
     <title>Formulario 1</title>
 </head>
 <body>
+        <header>
+        <hgroup>
+            <h1>Tienes algo para decir?</h1>
+        </hgroup>            
+    </header>
+    <nav>
+        <ul>
+            <li><a href="Index.html"><h4>Página 1</a><br></h4></li>
+        </ul>
+    </nav>
+    <hr/>
+    <p>A través de este formulario enviarme unmensaje para ayudarme a corregir errores, a mejorar mi blog, o simplemente para decir hola.</p>
+    <p>Cualquier cosa que tengas para decir es bienvenida, así que no lo dudes y déjame un mensaje. Estaré feliz de contestarte!</p>
+<form action="../form-result.php" target="_blank">
+    <fieldset>
+        <legend>Mensaje</legend>
+        <p><label>Tu nombre: <input type="text" name="nombre"></label></p>
+        <p><label>Tu direccion de correo: <input type="text" name="correo"></label></p>
+        <p><label>Tu mensaje: <input type="text" name="mensaje"></label></p>
+        <p><label>Trabajo: <select name="trabajo">
+            <option value="si">Si</option>
+            <option value="no">No</option>
+        </select>
+        <input type="text" name="trabajo1">
+</label></p>
+        <input type="submit" value="Enviar mensaje">
+        <input type="reset" value="Comenzar de nuevo">
+    </fieldset>
+</form>
     
 </body>
 </html>
