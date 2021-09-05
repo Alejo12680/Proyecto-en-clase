@@ -1,41 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario 1</title>
+    <title>Contactanos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <hgroup>
-            <h1>Tienes algo para decir?</h1>
+            <div id="banner">             
+            </div>
+            <div id="titulo">
+                <h1>Contactanos para recibir mas información</h1>
+            </div>
         </hgroup>            
     </header>
-    <nav>
+    <nav id="menu">
         <ul>
-            <li><a href="Index.html"><h4>Página 1</a><br></h4></li>
+            <li><a href="Index.html">Inicio</a></li>
+            <li><a href="Pagina2.html">Cuidados</a></li>
+            <li><a href="Pagina3.html">Nutrición</a></li>
+            <li><a href="pagina4.html">Tabla Descriptiva</a></li>
+            <li><a href="SegundoFormulario.html">Registrate</a></li>
+            <li><a href="#contexto">Siguenos</a></li>
         </ul>
     </nav>
+    <br>
     <hr/>
-    <p>A través de este formulario enviarme unmensaje para ayudarme a corregir errores, a mejorar mi blog, o simplemente para decir hola.</p>
+    <p>A través de este formulario enviarme un mensaje para ayudarme a corregir errores, a mejorar mi blog, o simplemente para decir hola.</p>
     <p>Cualquier cosa que tengas para decir es bienvenida, así que no lo dudes y déjame un mensaje. Estaré feliz de contestarte!</p>
-<form action="../form-result.php" target="_blank">
-    <fieldset>
-        <legend>Mensaje</legend>
-        <p><label>Tu nombre: <input type="text" name="nombre"></label></p>
-        <p><label>Tu direccion de correo: <input type="text" name="correo"></label></p>
-        <p><label>Tu mensaje: <input type="text" name="mensaje"></label></p>
-        <p><label>Trabajo: <select name="trabajo">
-            <option value="si">Si</option>
-            <option value="no">No</option>
-        </select>
-        <input type="text" name="trabajo1">
-</label></p>
-        <input type="submit" value="Enviar mensaje">
-        <input type="reset" value="Comenzar de nuevo">
-    </fieldset>
-</form>
-    
+<section class="form-contacto">
+    <form action="../form-result.php" target="_blank">
+       
+            <h4>Contactenos</h4>
+            <input class="control" type="text" name="nombres" id="nombre" placeholder="Ingrese su nombre">
+            <input class="control" type="email" name="correo" id="correo" placeholder="Ingrese su correo">
+            <input class="control" type="text" name="mensaje" id="mensaje" placeholder="Escribe tu mensaje">
+            <p><label>Trabajo: <select name="trabajo">
+                <option value="si">Si</option>
+                <option value="no">No</option>
+            </select>
+            <input class="control" type="text" name="trabajo1" id="ocupacion" placeholder="Ocupación">
+            </label></p>
+            <input class="boton1" type="submit" value="Enviar mensaje">
+            <input class="boton1" type="reset" value="Comenzar de nuevo">
+        
+    </form>
+</section>
+<hr>
+<footer>
+   <p>  Derechos de Autor Reservados &#9426 2021  Grupo_G1_Proyecto de clase</p> 
+</footer>     
 </body>
 </html>

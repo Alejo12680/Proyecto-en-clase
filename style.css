@@ -1,12 +1,21 @@
-h1 {
-    color:rgb(24, 40, 189);
+*{
+    margin: 0;
+    padding: 0;
+}
+#titulo h1 {
+    color:rgb(8, 8, 8);
     font-style: italic;
-    font-size:400%;
+    font-size:40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: relative;
-    text-align: center
-    
-       
+    text-align: center; 
+
+}
+#titulo{
+    padding: 15px;
+}
+#titulo h1:hover{
+    background-color: darkgrey;
 }
 body{
     background-color: rgb(203, 213, 235); padding: 50px; font-family: Arial;
@@ -35,8 +44,117 @@ table{
     background-color: white;
 }
 #banner{
-    background-image: url(banner.jfif);
-    padding: 50px;
+    padding: 70px;
     background-size: 50% 100%;
+    animation: banner 30s infinite;
+    }
+@keyframes banner {
+    0%, 30%{
+        background-image: url(img/banner.jfif);
+        opacity: 1;
+    }
+    31%, 34%{
+        opacity: 0.1;
+    }
+    35%, 65%{
+        background-image: url(img/banner1.jfif);
+        opacity: 1;
+    }
+    66%, 69%{
+        opacity: 0.1;
+    }
+    70%, 100%{
+        background-image: url(img/banner2.jfif);
+        opacity: 1;
+    }            
+}
+footer{
+    padding: 20px;
+    background-color: #000;
+}
+footer p{
+    color: #fff;
 
+}
+.form-contacto{
+    width: 500px;
+    background-color: rgb(220, 222, 226);
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+}
+.form-contacto h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.control{
+    width: 100%;
+    padding: 10px;
+    border-bottom: 4px;
+    margin-bottom: 16px;
+    border: 1px;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+#ocupacion{
+    width: 62%;
+    padding: 10px;
+    border-bottom: 8px;
+    margin-bottom: 16px;
+    border: 1px;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+.form-contacto p{
+    height: 40px;
+    width: 20;
+    font-size: 15px;
+    padding: 10px;
+    border-bottom: 4px;
+    margin-bottom: 16px;
+    line-height: 40px;
+}
+.form-contacto select{
+    height: 40px;
+    width: 20%;
+    font-size: 15px;
+    padding: 6px;
+    border-bottom: 4px;
+    margin-bottom: 16px;
+}
+.form-contacto .boton1{
+    width: 49%;
+    background-color: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin-bottom: 16px;
+    margin: 16px 0;
+    font-size: 16px;
+}
+#text{
+    float: right;
+    width: 300px;
+    height: 760px;
+    background-color: rgb(205, 245, 245);
+}
+div#img3{
+    float: left;
+    width: 700px;
+    height: 760px;
+    background-color: aliceblue;
+}
+div#cuerpo{
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+    background-color: rgb(148, 203, 240);
+    
+
+}
+div#pie{
+    width: 1000px;
+    
 }
