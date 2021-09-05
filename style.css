@@ -35,7 +35,7 @@ table{
     background-color: white;
 }
 #banner{
-    background-image: url(img/banner.jfif);
+    background-image: url(banner.jfif);
     padding: 50px;
     background-size: 50% 100%;
 }
