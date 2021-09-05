@@ -1,1 +1,41 @@
-style
+h1 {
+    color:rgb(24, 40, 189);
+    font-style: italic;
+    font-size:400%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    text-align: center
+    
+       
+}
+body{
+    background-color: rgb(203, 213, 235); padding: 50px; font-family: Arial;
+}
+#menu{
+    background-color: #000;
+}
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: auto;
+}
+#menu ul li{
+    display: inline-block;
+}
+#menu ul li a{
+    color: white;
+    display:block;
+    padding: 20px;
+    text-decoration: none;
+}
+#menu ul li a:hover{
+    background-color: #42b881;
+}
+table{
+    background-color: white;
+}
+#banner{
+    background-image: url(img/banner.jfif);
+    padding: 50px;
+    background-size: 50% 100%;
+}
