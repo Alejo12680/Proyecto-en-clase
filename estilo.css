@@ -18,15 +18,38 @@ body{
 header{
     background: chocolate;
     margin: 20px 0;
-    background-image: url('http://placekitten.com/4500/200');
+    background-image: url('http://placekitten.com/3780/200');
     background-repeat: no-repeat;
     background-size: contain;
 }
+
 header h1{
-    color: #fff;
+    color: black;
     padding: 20px 0;
     text-align: center;
 }
+
+#menu{
+    background-color: #000;
+}
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: auto;
+}
+#menu ul li{
+    display: inline-block;
+}
+#menu ul li a{
+    color: white;
+    display:block;
+    padding: 20px;
+    text-decoration: none;
+}
+#menu ul li a:hover{
+    background-color: #42b881;
+    }
+
 .main{
     width: 70%;
     background: #fff;
