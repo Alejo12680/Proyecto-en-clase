@@ -158,3 +158,11 @@ div#pie{
     width: 1000px;
     
 }
+.contenedor{
+    background-color: tan;
+    width: 80%;
+    max-width: 1000%;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 2em;
+}
